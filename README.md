@@ -6,6 +6,7 @@ This repository contains a Python-based **Climate Stress Testing** prototype tha
 
 The core question it answers: *If a 1-in-100-year coastal flood event occurs in 2050, how much does the Loss Given Default (LGD) migrate for each loan in the portfolio — and which assets are most exposed?*
 
+The methodology is aligned with the DNB physical climate risk framework and ECB supervisory expectations for climate stress testing.
 ---
 
 ## Methodology
@@ -130,5 +131,11 @@ The flood data uses the `nosub` (no subsidence) variant. The Netherlands experie
 
 1. Download WRI Aqueduct inundation rasters for RCP 4.5 and RCP 8.5 (2050, RP100) and place them in the project root.
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run: `python "Climate Stress Test Netherland.py"`
-4. Outputs: hazard maps, LGD migration chart, and `ING_Climate_Stress_Test_Results.csv`
+3. Run: `python "Climate Stress Test Netherlands.py"`
+4. Outputs: hazard maps, LGD migration chart, and `dutch_portfolio_stress_test_results.csv`
+
+---                                                      
+
+## Development                                           
+
+Built in Python. Improved iteratively using Claude Code.
