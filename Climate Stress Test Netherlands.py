@@ -109,5 +109,5 @@ plt.grid(axis='y', alpha=0.2)
 plt.show()
 
 # --- 7. EXPORT DELIVERABLE ---
-portfolio.to_csv("ING_Climate_Stress_Test_Results.csv", index=False)
+portfolio.to_csv("dutch_portfolio_stress_test_results.csv", index=False)
 print("📂 Deliverable exported to CSV.")
